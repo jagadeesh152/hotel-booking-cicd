@@ -1,0 +1,8 @@
+{
+  "check_in": "2030-01-10",
+  "check_out": "2030-01-12",
+  "room_type": "standard",
+  "guest_name": "Test Guest",
+  "guest_email": "testguest@example.com",
+  "room_number": "101"
+}

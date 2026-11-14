@@ -1,0 +1,14 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+backups/*
+!backups/.gitkeep
+nginx/certs/*
+!nginx/certs/.gitkeep
+
+.env
+nginx/certs/*.key
+nginx/certs/*.crt
