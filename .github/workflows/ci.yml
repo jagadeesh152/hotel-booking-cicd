@@ -79,7 +79,7 @@ jobs:
             type=raw,value=latest,enable={{is_default_branch}}
 
       - name: Build image (local, for scanning)
-        uses: docker/build-push-action@v6
+        uses: docker/build-push-action@v7
         with:
           context: .
           load: true
@@ -109,7 +109,7 @@ jobs:
       - name: Push versioned image
         id: push
         if: github.event_name != 'pull_request'
-        uses: docker/build-push-action@v6
+        uses: docker/build-push-action@v7
         with:
           context: .
           push: true
